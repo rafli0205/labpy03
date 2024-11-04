@@ -9,6 +9,7 @@
 import random
 
 # Meminta pengguna memasukkan nilai n
+```python
 n = int(input("Masukkan nilai N: "))
 
 # Looping untuk menghasilkan n bilangan acak
@@ -20,7 +21,7 @@ for i in range(1, n + 1):
     print(f"data ke: {i} => {bilangan_acak}")
 
 print("Selesai")
-
+```
 
 *Penjelasan alur algoritma program*
 1.	Import Modul random:
@@ -51,6 +52,7 @@ laba = 0
 total_laba = 0
 
 # Loop untuk bulan 1 sampai 8
+```python
 for bulan in range(1, 9):
     # Menentukan laba berdasarkan bulan
     if bulan in [1, 2]:  # Bulan 1 dan 2
@@ -70,7 +72,7 @@ for bulan in range(1, 9):
 
 # Menampilkan total laba
 print(f"Total laba adalah: {total_laba}")
-
+```
 
 *Penjelasan alur algoritma program*
 •  Inisialisasi Variabel:
@@ -99,6 +101,7 @@ o	Jika bulan 8, laba adalah 200.000.000.
 
 *Code*
 
+```python
 def atm():
   saldo = 1000000
 
@@ -122,7 +125,7 @@ def atm():
       print("Pilihan tidak valid!")
 
 atm()
-
+```
 
 *Penjelasan alur algoritma program*
 1.	Definisi Fungsi atm():
