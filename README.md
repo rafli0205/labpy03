@@ -5,11 +5,10 @@
 ![Screenshot (48)](https://github.com/user-attachments/assets/1c3407aa-7c95-4260-b93d-e163d9c90b37)
 
 *Code*
-
+```python
 import random
 
 # Meminta pengguna memasukkan nilai n
-```python
 n = int(input("Masukkan nilai N: "))
 
 # Looping untuk menghasilkan n bilangan acak
@@ -46,13 +45,12 @@ Penjelasan Fungsi random.uniform(a, b):
 ![Screenshot (50)](https://github.com/user-attachments/assets/a2d903d4-3e3d-4b17-9a84-9ac83fe52d38)
 
 *Code*
-
+```python
 # Inisialisasi laba per bulan
 laba = 0
 total_laba = 0
 
 # Loop untuk bulan 1 sampai 8
-```python
 for bulan in range(1, 9):
     # Menentukan laba berdasarkan bulan
     if bulan in [1, 2]:  # Bulan 1 dan 2
